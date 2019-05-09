@@ -325,6 +325,9 @@ h2 {
         padding-left: 16px;
         width: 218px;
         height: 41px; }
+        .main_screen_content .right .formwrap .label_cust span{
+          line-height: 20px;
+        }
         .main_screen_content .right .formwrap .label_cust.label_name {
           top: 50%;
           -webkit-transform: translateY(calc(-50% - 15px));
