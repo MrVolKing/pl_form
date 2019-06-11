@@ -243,7 +243,8 @@ h2 {
 .main_screen {
   background-image: url(../images/screen1.png);
   background-repeat: no-repeat;
-  padding: 112px 0 212px 0;
+  /* padding: 112px 0 212px 0; */
+  padding: 182px 0 350px 0;
   background-size: cover;
   background-position-y: -30px; }
 
