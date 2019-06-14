@@ -244,7 +244,7 @@ h2 {
   background-image: url(../images/screen1.png);
   background-repeat: no-repeat;
   /* padding: 112px 0 212px 0; */
-  padding: 182px 0 320px 0;
+  padding: 182px 0 300px 0;
   background-size: cover;
   background-position-y: -30px; }
 
@@ -265,8 +265,11 @@ h2 {
     width: 446px; }
     .main_screen_content .right .formwrap {
       padding: 33px 32px 53px 32px;
-      background-color: rgba(255, 255, 255, 0.35);
+      background-color: rgba(255, 255, 255, 0.65);
       position: relative; }
+      .main_screen_content .right .formwrap .title{
+        padding-bottom: 10px;
+      }
       .main_screen_content .right .formwrap .title p {
         font-family: "myriadPro";
         font-size: 24px;
@@ -331,18 +334,18 @@ h2 {
         }
         .main_screen_content .right .formwrap .label_cust.label_name {
           top: 50%;
-          -webkit-transform: translateY(calc(-50% - 15px));
-          transform: translateY(calc(-50% - 15px));
+          -webkit-transform: translateY(calc(-50% - 2px));
+          transform: translateY(calc(-50% - 2px));
           left: 112%; }
         .main_screen_content .right .formwrap .label_cust.label_email {
           top: 50%;
-          -webkit-transform: translateY(calc(-50% - 15px));
-          transform: translateY(calc(-50% - 15px));
+          -webkit-transform: translateY(calc(-50% - 2px));
+          transform: translateY(calc(-50% - 2px));
           left: 112%; }
         .main_screen_content .right .formwrap .label_cust.label_phone {
           top: 50%;
-          -webkit-transform: translateY(calc(-50% - 15px));
-          transform: translateY(calc(-50% - 15px));
+          -webkit-transform: translateY(calc(-50% - 2px));
+          transform: translateY(calc(-50% - 2px));
           left: 112%; }
         .main_screen_content .right .formwrap .label_cust.visible {
           display: -webkit-box;
@@ -366,6 +369,11 @@ h2 {
     .main_screen_content .right .blockbutton button {
       width: 100%;
       margin-top: 24px; }
+      .vk_title_cust{
+        font-size: 18px;
+        font-weight: 600;
+        color: #4d4d4d;
+      }
   .main_screen_content .checkbox,
   .main_screen_content .radio {
     display: none; }
@@ -425,7 +433,11 @@ h2 {
 @media screen and (max-width: 1270px) {
   .main_screen_content {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+    .main_screen_content .left{
+      margin-left: 0;
+    }
+   }
 
 @media screen and (max-width: 1010px) {
   .main_screen {
